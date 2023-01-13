@@ -22,8 +22,7 @@ header
 **/
 header {
 	/* style */
-	background: #0E097F;
-	color: rgb(29, 16, 97);
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Donetsk_People%27s_Republic.svg/2560px-Flag_of_Donetsk_People%27s_Republic.svg.png");
 	text-align: center;
 	/* layout */
 	height: 44px;
@@ -94,12 +93,31 @@ header dropdowns
 /* dropdown links */
 .dropdown_menu>a {
 	/* style */
-	color: rgb(100, 43, 43);
+	color: #ddd;
 	text-decoration: none;
 	/* layout */
 	display: block;
 	padding: 2px 20px;
 }
+.dropdown_menu>a:hover {
+	background: #222;
+	color: #d85e27;
+	cursor: pointer;
+}
+/* dropdown header and separation */
+.dropdown_menu>h2 {
+	/* style */
+	color: #fff;
+	font-size: 15px;
+	/* layout */
+	margin:0;
+	padding:2px 20px;
+}
+.dropdown_menu>hr {
+	border: 1px solid #222;
+	margin: 10px 0;
+}
+
 main {
 	padding:20px 40px
 }
